@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Principal;
 
 namespace skeet_crack
 {
+
     internal static class Program
     {
         /// <summary>
@@ -19,5 +21,7 @@ namespace skeet_crack
             Application.Run(new Form1());
 
         }
+
     }
+
 }
