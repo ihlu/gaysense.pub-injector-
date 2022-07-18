@@ -58,8 +58,8 @@ namespace skeet_crack
             if (a == 1);
             do
             {
-                progressBar1.Value += 20;
-                Thread.Sleep(200);
+                progressBar1.Value += 5;
+                Thread.Sleep(10);
 
             } while (progressBar1.Value < 100);
 
