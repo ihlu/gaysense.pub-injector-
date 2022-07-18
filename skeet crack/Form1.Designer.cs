@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -42,21 +43,41 @@
             this.button4 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label5 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button10 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox1.Location = new System.Drawing.Point(16, 82);
+            this.groupBox1.Location = new System.Drawing.Point(20, 65);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(247, 350);
+            this.groupBox1.Size = new System.Drawing.Size(247, 139);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select cheat";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Fuchsia;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.Location = new System.Drawing.Point(17, 89);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(82, 23);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "luckychamrs";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // checkBox1
             // 
@@ -203,12 +224,75 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "injecting progress";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.button7);
+            this.groupBox2.Controls.Add(this.button8);
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox2.Location = new System.Drawing.Point(20, 250);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(247, 139);
+            this.groupBox2.TabIndex = 13;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Select video gamer";
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button7.Location = new System.Drawing.Point(17, 60);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 1;
+            this.button7.Text = "meinkampf";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Lime;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button8.Location = new System.Drawing.Point(17, 31);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "csgo";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.button10);
+            this.groupBox3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox3.Location = new System.Drawing.Point(20, 65);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(247, 139);
+            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Select cheat";
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Lime;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button10.Location = new System.Drawing.Point(17, 28);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(148, 23);
+            this.button10.TabIndex = 0;
+            this.button10.Text = "huzuni for minecraft 1.7.10";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button4);
@@ -225,6 +309,8 @@
             this.Text = "ОПА ЕБАНЫ СКЕЕТ КРАК ";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -245,6 +331,12 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button button10;
     }
 }
 

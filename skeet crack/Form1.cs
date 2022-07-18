@@ -20,6 +20,7 @@ namespace skeet_crack
             InitializeComponent();
             label2.Hide();
             label3.Hide();
+            groupBox3.Hide();
         }
 
 
@@ -55,7 +56,7 @@ namespace skeet_crack
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (a == 1);
+            if (a == 1)
             do
             {
                 progressBar1.Value += 5;
@@ -70,6 +71,18 @@ namespace skeet_crack
         {
             MessageBox.Show("РОССИЯ СВЯЩЕННАЯ НАША ДЕРЖАВА, РОССИЯ ЛЮБИМАЯ НАША СТРАНА");
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            groupBox1.Hide();
+            groupBox3.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            groupBox1.Show();
+            groupBox3.Hide();
         }
     }
 }
